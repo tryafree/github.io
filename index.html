@@ -1,0 +1,291 @@
+<html><head><base href="https://aioverdose.com/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Overdose - Your Source for AI News, Tools, and Community</title>
+<meta name="description" content="Stay updated with the latest AI news, explore cutting-edge AI tools, and join our thriving community of AI enthusiasts at AI Overdose.">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #000;
+        color: #d3d3d3;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    header {
+        background-color: #111;
+        padding: 20px 0;
+        width: 100%;
+    }
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+    }
+    nav ul li {
+        margin-left: 20px;
+    }
+    nav ul li a {
+        color: #d3d3d3;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+        color: #fff;
+    }
+    main {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .community-feed {
+        width: 25%;
+        background-color: #111;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .main-content {
+        width: 45%;
+        background-color: #111;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 0 20px;
+    }
+    .blog-posts {
+        width: 25%;
+        background-color: #111;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    h2 {
+        border-bottom: 1px solid #333;
+        padding-bottom: 10px;
+    }
+    .post, .news-article, .blog-post {
+        margin-bottom: 20px;
+    }
+    .post-author, .post-date, .blog-date {
+        font-size: 0.8em;
+        color: #888;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    footer {
+        background-color: #111;
+        padding: 20px 0;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+        }
+        .community-feed, .main-content, .blog-posts {
+            width: 100%;
+            margin: 0 0 20px 0;
+        }
+        .footer-content {
+            flex-direction: column;
+        }
+        .footer-content div {
+            margin-bottom: 10px;
+        }
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">AI Overdose</div>
+                <nav>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/ai-tools">AI Tools</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/signup">Sign Up</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <main>
+            <section class="community-feed">
+                <h2>Community Feed</h2>
+                <div class="post">
+                    <p>Just tried the new GPT-4 model. Mind-blowing results! 🤯</p>
+                    <p class="post-author">@AIenthusiast</p>
+                    <p class="post-date">2 hours ago</p>
+                </div>
+                <div class="post">
+                    <p>Anyone else excited about the potential of AI in healthcare? 🏥🤖</p>
+                    <p class="post-author">@DocAI</p>
+                    <p class="post-date">5 hours ago</p>
+                </div>
+                <div class="post">
+                    <p>Working on a new AI art project. Can't wait to share the results! 🎨</p>
+                    <p class="post-author">@AIrtist</p>
+                    <p class="post-date">1 day ago</p>
+                </div>
+            </section>
+
+            <section class="main-content">
+                <h2>Latest AI News</h2>
+                <article class="news-article">
+                    <h3>OpenAI Releases GPT-4 with Multimodal Capabilities</h3>
+                    <img src="https://aioverdose.com/images/gpt4-release.jpg" alt="GPT-4 logo with futuristic neural network visualization" width="600" height="400">
+                    <p>OpenAI has announced the release of GPT-4, the latest iteration of their groundbreaking language model. This version introduces multimodal capabilities, allowing the AI to process both text and images as input...</p>
+                    <a href="/news/gpt4-release">Read more</a>
+                </article>
+                <article class="news-article">
+                    <h3>AI-Powered Drug Discovery Leads to Breakthrough in Cancer Treatment</h3>
+                    <img src="https://aioverdose.com/images/ai-drug-discovery.jpg" alt="3D render of AI analyzing molecular structures" width="600" height="400">
+                    <p>Researchers at a leading pharmaceutical company have leveraged AI algorithms to identify a promising new compound for cancer treatment. The AI-driven approach has significantly accelerated the drug discovery process...</p>
+                    <a href="/news/ai-cancer-drug-discovery">Read more</a>
+                </article>
+            </section>
+
+            <section class="blog-posts">
+                <h2>Featured Blog Posts</h2>
+                <div class="blog-post">
+                    <h3>The Ethics of AI: Navigating the Gray Areas</h3>
+                    <img src="https://aioverdose.com/images/ai-ethics.jpg" alt="Abstract representation of AI and ethics" width="300" height="200">
+                    <p class="blog-date">May 15, 2023</p>
+                    <a href="/blog/ai-ethics">Read more</a>
+                </div>
+                <div class="blog-post">
+                    <h3>5 AI Tools Every Developer Should Know</h3>
+                    <img src="https://aioverdose.com/images/ai-dev-tools.jpg" alt="Collage of AI development tools" width="300" height="200">
+                    <p class="blog-date">May 12, 2023</p>
+                    <a href="/blog/ai-dev-tools">Read more</a>
+                </div>
+                <div class="blog-post">
+                    <h3>The Future of Work: AI's Impact on Employment</h3>
+                    <img src="https://aioverdose.com/images/ai-future-work.jpg" alt="Futuristic office with AI assistants" width="300" height="200">
+                    <p class="blog-date">May 10, 2023</p>
+                    <a href="/blog/ai-future-work">Read more</a>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>Location: Long Beach, California USA</div>
+                <div>Email: info@aioverdose.com</div>
+                <div>Phone: 562-444-8463</div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Add smooth scrolling to all links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Lazy load images
+        document.addEventListener("DOMContentLoaded", function() {
+            var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+
+            if ("IntersectionObserver" in window) {
+                let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            let lazyImage = entry.target;
+                            lazyImage.src = lazyImage.dataset.src;
+                            lazyImage.classList.remove("lazy");
+                            lazyImageObserver.unobserve(lazyImage);
+                        }
+                    });
+                });
+
+                lazyImages.forEach(function(lazyImage) {
+                    lazyImageObserver.observe(lazyImage);
+                });
+            }
+        });
+
+        // Add a "Back to Top" button
+        const backToTopButton = document.createElement('button');
+        backToTopButton.textContent = 'Back to Top';
+        backToTopButton.style.cssText = 'position: fixed; bottom: 20px; right: 20px; padding: 10px; background-color: #333; color: #fff; border: none; border-radius: 5px; cursor: pointer; display: none;';
+        document.body.appendChild(backToTopButton);
+
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+
+        backToTopButton.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Add dynamic content loading for community feed
+        const communityFeed = document.querySelector('.community-feed');
+        const loadMoreButton = document.createElement('button');
+        loadMoreButton.textContent = 'Load More';
+        loadMoreButton.style.cssText = 'background-color: #333; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin-top: 20px;';
+        communityFeed.appendChild(loadMoreButton);
+
+        loadMoreButton.addEventListener('click', function() {
+            // Simulating loading more posts
+            const newPosts = [
+                { content: "I'm amazed by how AI is revolutionizing the music industry! 🎵🤖", author: "@MusicAI", time: "1 day ago" },
+                { content: "Has anyone experimented with reinforcement learning lately? Looking for tips!", author: "@AILearner", time: "2 days ago" }
+            ];
+
+            newPosts.forEach(post => {
+                const postElement = document.createElement('div');
+                postElement.className = 'post';
+                postElement.innerHTML = `
+                    <p>${post.content}</p>
+                    <p class="post-author">@${post.author}</p>
+                    <p class="post-date">${post.time}</p>
+                `;
+                communityFeed.insertBefore(postElement, loadMoreButton);
+            });
+        });
+    </script>
+</body></html>
